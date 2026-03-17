@@ -1,9 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package ifc.enzoscottini;
-
 import java.util.Date;
 
 /**
@@ -11,27 +5,26 @@ import java.util.Date;
  * @author aluno
  */
 public class Estudante {
-    private static String nome;
+    
+    private String nde;
     private Date dataNascimento;
     char genero;
     private String matricula;
     private String email;
+    private String nome;
+    private String endereco;
+    private String telefone;
+    private String cpf;
     
-        public Estudante(){
-                this.nome= "nobody";
-            
-        }
+        
+       public String getNde(){
     
-        public int obterIdade (Date hoje){
-        int idade = 0;
-        //Lógica para calcular idade
-        return idade;
-    }
-        public static String getNome(){
-            return nome;
-        }
-        public static void setNome (String _nome){
-            nome = _nome;
-        }
+           return nde; 
+           
+}
+ public  void setNde (String _nde){
+           nde = _nde;
+}
+
 
 }
